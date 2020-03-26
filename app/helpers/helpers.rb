@@ -7,7 +7,6 @@ class Helpers
   
   def is_logged_in?(hash)
     !!hash[:user_id] 
-    
   end 
 
 end
