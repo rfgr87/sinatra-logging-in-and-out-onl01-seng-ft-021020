@@ -6,7 +6,7 @@ class Helpers
   end 
   
   def is_logged_in?(hash)
-    if hash[:user_id] == sesssion[:user_id]
+    !!hash[:user_id] 
     
   end 
 
